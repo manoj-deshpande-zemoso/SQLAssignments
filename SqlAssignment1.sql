@@ -52,8 +52,8 @@ where
     and inventory.film_id = film.film_id
     and film.film_id = film_actor.film_id
     and film_actor.actor_id = actor.actor_id
-    and actor.first_name = "NICK"
-    and actor.last_name = "WAHLBERG";
+    and actor.first_name = 'NICK'
+    and actor.last_name = 'WAHLBERG';
     
 -- 5. Find out the number of movies in which “SEAN WILLIAMS” acted.
 select 
